@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.msg-chat {
+  width: 510px;
+  //background-color: aqua;
+  &__block {
+    //background-color: yellow;
+  }
+  &__screen {
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px 18px 18px 18px;
+    width: 289px;
+    height: 481px;
+    margin: 35px 0 0 199px;
+  }
+  &__screen-header {
+    height: 49px;
+    border-radius: 18px 18px 0 0;
+    background-color: #fff;
+    img {
+      width: 100%;
+    }
+  }
+  &__screen-dialogs {
+    height: 384px;
+    overflow: auto;
+  }
+  &__screen-footer {
+    border-radius: 0 0 18px 18px;
+    background-color: #fff;
+    img {
+      width: 100%;
+      height: 40px;
+    }
+  }
+  .dialog {
+    display: flex;
+    flex-direction: column;
+    //background-color: brown;
+  }
+  .customer {
+    margin: 5px 10px 5px 0;
+    align-self: flex-end;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #007ee5;
+    border-radius: 20px;
+    max-width: 216px;
+    padding: 5px 10px 5px 10px;
+  }
+  .support {
+    margin: 5px 0 5px 10px;
+    align-self: flex-start;
+    color: #2c2c2c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    max-width: 189px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .support_block {
+    display: flex;
+    .support_logo {
+      margin-left: 10px;
+      height: 28px;
+      align-self: flex-end;
+    }
+  }
+
+  #index-1, #index-2, #index-3, #index-4, #index-5,
+  #index-6, #index-7, #index-8, #index-9, #index-10,
+  #index-11, #index-12, #index-13, #index-14 {
+    display: none;
+    //margin-top: 20px;
+  }
+
+}
